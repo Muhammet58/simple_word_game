@@ -60,7 +60,7 @@ def oyunu_baslat_devam_et(harfler, rastgele_harfler, kullanici_puani, adedince_h
             adedince_harfler.remove(harf)
 
             if harfler[harf][0] == 0:
-                print(f"{harf} harfi kalmadı!")            
+                print(f"{harf} harfi kalmadı !")            
 
     yeni_harfler = sample(adedince_harfler, k=7-len(rastgele_harfler))
     rastgele_harfler.extend(yeni_harfler)
